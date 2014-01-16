@@ -2,7 +2,7 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
-public class ImportantTweetModel extends LonelyTweetModel {
+public class ImportantTweetModel extends AbstractTweetModel {
 	public ImportantTweetModel(String text, Date timestamp) {
 		super(text, timestamp);
 	}
