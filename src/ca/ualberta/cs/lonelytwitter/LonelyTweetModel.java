@@ -3,7 +3,7 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 public abstract class LonelyTweetModel {
-	private String text;
+	protected String text;
 	private Date timestamp;
 	public String getText() {
 		return text;
